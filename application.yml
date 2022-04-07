@@ -25,7 +25,7 @@ spring:
         instance:
           serviceBaseUrl: http://localhost:8000
   rabbitmq:
-    addresses: amqps://dhcxlxdj:70adYZsIy6jtiJY4_fuKtA3kkepE_wqe@puffin.rmq2.cloudamqp.com/dhcxlxdj
+    addresses: amqps://przwenny:tdDUMBA4zm4PMvqGPx18ey9zhcyhQ3DD@lionfish.rmq.cloudamqp.com/przwenny
   sleuth:
     enabled: true
   zipkin:
