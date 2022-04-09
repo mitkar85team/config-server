@@ -17,15 +17,15 @@ management:
     mongo:
       enabled: false
 
-spring:
-  boot:
-    admin:
-      client:
-        url: http://admin:8000
-        username: admin
-        password: admin
-        instance:
-          serviceBaseUrl: http://localhost:8000
+# spring:
+#   boot:
+#     admin:
+#       client:
+#         url: http://admin:8000
+#         username: admin
+#         password: admin
+#         instance:
+#           serviceBaseUrl: http://localhost:8000
   rabbitmq:
     addresses: amqps://przwenny:tdDUMBA4zm4PMvqGPx18ey9zhcyhQ3DD@lionfish.rmq.cloudamqp.com/przwenny
   sleuth:
