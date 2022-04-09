@@ -42,3 +42,7 @@ hystrix:
       isolation:
         thread:
           timeoutInMilliseconds: 5000 
+microservices:
+  endpoints:
+    endpoint:
+      resource-service: resource-service
