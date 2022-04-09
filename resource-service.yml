@@ -17,4 +17,4 @@ spring:
         use_sql_comments: false
         dialect : org.hibernate.dialect.MySQLDialect
     hibernate:
-      ddl-auto: none
+      ddl-auto: update
