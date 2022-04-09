@@ -1,3 +1,6 @@
+server:
+  port: 8000
+
 eureka:
   client:
     register-with-eureka: true
@@ -13,7 +16,6 @@ management:
   health:
     mongo:
       enabled: false
-
 
 spring:
   boot:
